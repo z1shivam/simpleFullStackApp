@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning SQL</title>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <h1>Shivam's FrontEnd</h1>
+    <p id="mainParagraph">Loading...</p>
+    <form id="testForm">
+      <label for="email">Email: </label>
+      <input type="text" name="email" placeholder="Enter your email..." />
+      <br />
+      <label for="firstName">First Name:</label>
+      <input
+        type="text"
+        name="firstName"
+        placeholder="Enter your firstname..."
+      />
+      <br />
+      <label for="lastName">Last Name: </label>
+      <input type="text" name="lastName" placeholder="Enter your lastname..." />
+      <br />
+      <label for="age">Age:</label>
+      <input type="number" name="age" placeholder="Enter your age..." />
+      <input type="submit" value="send request" />
+    </form>
+    <p id="submitResult"></p>
+
+    <div>
+      <button id="fetchUser">Get Users</button>
+      <p id="userList"></p>
+    </div>
+  </body>
+</html>
